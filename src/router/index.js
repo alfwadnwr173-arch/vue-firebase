@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
-import login from "../views/login.vue";
+import Login from "../views/login.vue";
 import Register from "../views/Register.vue";
 import Home from "../views/Home.vue";
 import { auth } from "../firebase/config";
 
 const routes = [
-  { path: "/login", component: login },
+  { path: "/login", component: Login },
   { path: "/register", component: Register },
   {
     path: "/",
